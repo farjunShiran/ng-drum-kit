@@ -1,0 +1,18 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: url("../assets/images/drumkit1.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__keys {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
